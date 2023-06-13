@@ -27,7 +27,11 @@ public class TestBun {
         return new Object[][]{
                 {"black bun", 100.0f, "black bun", 100.0f},
                 {"white bun", 200.0f, "white bun", 200.0f},
-                {"red bun", 300.0f, "red bun", 300.0f}
+                {"red bun", 300.0f, "red bun", 300.0f},
+                {"", -100.0f, "", -100.0f},
+                {null, 0, null, 0},
+                {"veryveryveryveryTastyBUUUUUN aaaaaaaaaaaaaaaa", 0.0000000000001f, "veryveryveryveryTastyBUUUUUN aaaaaaaaaaaaaaaa", 0.0000000000001f},
+                {"%^&*UKHBG*I&^%$", Float.MAX_VALUE, "%^&*UKHBG*I&^%$", Float.MAX_VALUE}
         };
     }
 
